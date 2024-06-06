@@ -591,6 +591,19 @@ h3 {
     }
 }
 
+/*Text Logo in the Image*/
+@media (max-width:575.98px) {
+    .text-logo {
+        width: 80%;
+    }
+}
+
+@media (max-width:575.98px) {
+    .main-content .photos .photo-item img {
+        height: 200px
+    }
+}
+
 .main-content .photos .photo-item:hover:after {
     opacity: 1;
     visibility: visible
