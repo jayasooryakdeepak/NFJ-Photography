@@ -1,4 +1,5 @@
 body {
+    font-family: "Poppins", Arial, sans-serif;
     line-height: 1.7;
     color: gray;
     font-weight: 400;
@@ -17,6 +18,17 @@ a {
     transition: .3s all ease
 }
 
+.wel{
+    font-family: "Raleway", Arial, sans-serif;
+    font-weight: 800;
+}
+
+.wel-sub{
+    font-family: "Poppins", Arial, sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+}
+
 a:hover {
     text-decoration: none
 }
@@ -27,8 +39,9 @@ a:hover {
 h1,
 h2,
 h3 {
-    font-family: "Oswald", arial, sans-serif
+    font-family: "Poppins", arial, sans-serif
 }
+
 
 .site-wrap:before {
     display: none;
@@ -460,11 +473,17 @@ h3 {
 }
 
 .header-bar ul.social li {
-    display: inline-block
+    display: inline-block;
+    
+}
+
+.iconsz{
+    font-size: 20px;
 }
 
 .header-bar ul.social li a {
-    padding: 10px
+    padding: 26px;
+    
 }
 
 .header-bar ul.social li a:hover {
