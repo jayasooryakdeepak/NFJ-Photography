@@ -128,7 +128,7 @@ small {
 }
 
 a {
-    color: #df0e62;
+    color: var(--cyan);
     text-decoration: none;
     background-color: transparent;
     -webkit-text-decoration-skip: objects
@@ -379,7 +379,7 @@ small {
 
 code {
     font-size: 87.5%;
-    color: #df0e62;
+    color: var(--cyan);
     word-break: break-word
 }
 
@@ -710,8 +710,8 @@ fieldset:disabled a.btn {
 .btn-primary.disabled,
 .btn-primary:disabled {
     color: #fff;
-    background-color: #df0e62;
-    border-color: #df0e62
+    background-color: var(--cyan);
+    border-color: var(--cyan)
 }
 
 .btn-primary:not(:disabled):not(.disabled).active,
@@ -943,7 +943,7 @@ fieldset:disabled a.btn {
 .dropdown-item:active {
     color: #fff;
     text-decoration: none;
-    background-color: #df0e62
+    background-color: var(--cyan)
 }
 
 .dropdown-item.disabled,
@@ -1166,8 +1166,8 @@ fieldset:disabled a.btn {
 .list-group-item.active {
     z-index: 2;
     color: #fff;
-    background-color: #df0e62;
-    border-color: #df0e62
+    background-color: var(--cyan);
+    border-color: var(--cyan)
 }
 
 .close {

@@ -182,7 +182,7 @@ h3 {
 }
 
 .ul-check.primary li:before {
-    color: #df0e62
+    color: var(--cyan)
 }
 
 .site-mobile-menu {
@@ -286,7 +286,7 @@ h3 {
 
 .site-mobile-menu .site-nav-wrap a.active,
 .site-mobile-menu .site-nav-wrap a:hover {
-    color: #df0e62
+    color: var(--cyan)
 }
 
 .site-mobile-menu .site-nav-wrap li {
@@ -295,7 +295,7 @@ h3 {
 }
 
 .site-mobile-menu .site-nav-wrap li.active>a {
-    color: #df0e62
+    color: var(--cyan)
 }
 
 .site-mobile-menu .site-nav-wrap .arrow-collapse {
@@ -469,11 +469,11 @@ h3 {
 }
 
 .header-bar ul li a.active {
-    color: #df0e62
+    color: var(--cyan)
 }
 
 .header-bar ul li.active a {
-    color: #df0e62
+    color: var(--cyan)
 }
 
 .header-bar ul.social li {
@@ -491,7 +491,7 @@ h3 {
 }
 
 .header-bar ul.social li a:hover {
-    color: #df0e62
+    color: var(--cyan)
 }
 
 .header-bar ul.social li:first-child a {
@@ -674,7 +674,7 @@ h3 {
 }
 
 .custom-pagination a:hover {
-    background: #df0e62;
+    background: var(--cyan);
     color: #fff
 }
 
@@ -733,7 +733,7 @@ h3 {
     top: 0;
     width: 100px;
     height: 4px;
-    background: #df0e62
+    background: var(--cyan)
 }
 
 .site-section .heading {
@@ -804,7 +804,7 @@ h3 {
 }
 
 .slide-one-item.home-slider .owl-dots .owl-dot.active span {
-    background: #df0e62
+    background: var(--cyan)
 }
 
 .slide-one-item.home-slider .owl-nav {
@@ -866,7 +866,7 @@ h3 {
 .slide-one-item.home-slider .owl-next:hover,
 .slide-one-item.home-slider .owl-prev:focus,
 .slide-one-item.home-slider .owl-prev:hover {
-    background: #df0e62
+    background: var(--cyan)
 }
 
 .slide-one-item.home-slider:active .owl-nav,
