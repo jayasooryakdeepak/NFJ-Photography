@@ -149,6 +149,10 @@ h3 {
     z-index: 1
 }
 
+.text-logo-alig {
+    padding-left: 25px !important;
+}
+
 .ul-check {
     margin-bottom: 50px
 }
