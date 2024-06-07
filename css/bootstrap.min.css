@@ -135,7 +135,7 @@ a {
 }
 
 a:hover {
-    color: #970942;
+    color: var(--cyan);
     text-decoration: underline
 }
 
@@ -671,8 +671,8 @@ textarea.form-control {
 .btn.focus,
 .btn:focus {
     outline: 0;
-    -webkit-box-shadow: 0 0 0 0.2rem rgba(223, 14, 98, 0.25);
-    box-shadow: 0 0 0 0.2rem rgba(223, 14, 98, 0.25)
+    -webkit-box-shadow: 0 0 0 0.2rem var(--cyan);
+    box-shadow: 0 0 0 0.2rem var(--cyan)
 }
 
 .btn.disabled,
@@ -692,13 +692,13 @@ fieldset:disabled a.btn {
 .btn-primary {
     color: #fff;
     background-color: var(--cyan);
-    border-color: var(--cyan);
+    /* border-color: var(--cyan); */
 }
 
 .btn-primary:hover {
-    color: #fff;
-    background-color: var(--blue);
-    border-color: var(--cyan);
+    color: var(--cyan);
+    background-color: var(--white);
+    /* border-color: var(--cyan); */
 }
 
 .btn-primary.focus,
@@ -718,8 +718,8 @@ fieldset:disabled a.btn {
 .btn-primary:not(:disabled):not(.disabled):active,
 .show>.btn-primary.dropdown-toggle {
     color: #fff;
-    background-color: #af0b4d;
-    border-color: #a30a48
+    background-color: var(--cyan);
+    border-color: var(--cyan);
 }
 
 .btn-primary:not(:disabled):not(.disabled).active:focus,
