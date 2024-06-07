@@ -27,6 +27,7 @@ a {
     font-family: "Poppins", Arial, sans-serif;
     font-weight: 600;
     font-size: 30px;
+    padding-top: 40px;
 }
 
 a:hover {
@@ -695,9 +696,9 @@ h3 {
 
 .site-section-hero,
 .site-section-hero .row {
-    height: 100vh;
+    height: 115vh;
     min-height: 500px;
-    z-index: 2;
+    z-index: 2; 
     position: relative
 }
 
