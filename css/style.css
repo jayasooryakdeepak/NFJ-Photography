@@ -410,6 +410,20 @@ h3 {
     }
 }
 
+@media (max-width:575.98px) {
+    .header-bar {
+        min-height: 12%
+    }
+}
+
+@media (max-width:575.98px) {
+    .contact-align {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}
+
+
 .header-bar .site-logo {
     margin-bottom: 30px
 }
@@ -622,6 +636,10 @@ h3 {
 @media (max-width:575.98px) {
     .wel-sub {
         font-size: 20px;
+    }
+
+    .text-logo-alig {
+        padding-left: 30px !important;
     }
 }
 
