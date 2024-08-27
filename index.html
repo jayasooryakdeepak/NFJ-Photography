@@ -803,7 +803,7 @@
               <div class="row justify-content-center contact-align">
                 <div class="col-md-8">
                   <h2 class="text-white mb-5 heading">Contact</h2>
-                  <form id="gform" method="post" action="https://script.google.com/macros/s/AKfycbyqNVhgjQCSqHmV6E4i5KfMWV6OLingYJqlEiSq_27v63pdmOgC2mTonC7ZPclWeOCj/exec">
+                  <form id="submit-form" action="">
                     <div class="row form-group">
                       <div class="col-md-12 mb-3 mb-md-0">
                         <label class="text-white" for="name">Name</label>
@@ -930,7 +930,7 @@
       $("#submit-form").submit((e) => {
         e.preventDefault();
         $.ajax({
-          url: "https://script.google.com/macros/s/AKfycbwB5C5xrIpTIA58jWBDSEsx_fPNNC9eyO7BMMleY-UmWCZhG5f9aoxW40RG9Nn7u8zSQg/exec",
+          url: "https://script.google.com/macros/s/AKfycbyqNVhgjQCSqHmV6E4i5KfMWV6OLingYJqlEiSq_27v63pdmOgC2mTonC7ZPclWeOCj/exec",
           data: $("#submit-form").serialize(),
           method: "post",
           success: function (response) {
