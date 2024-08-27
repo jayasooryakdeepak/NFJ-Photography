@@ -73,15 +73,27 @@
             <li><a href="#section-contact" class="nav-link">Contact</a></li>
           </ul>
           <ul class="social js-clone-nav">
-            <li>
+            <li onclick="linkedin_link()">
               <a href="https://www.linkedin.com/in/nevin-francies-5b69b0144/"><span class="icon-linkedin iconsz"></span></a>
             </li>
-            <li>
+            <li onclick="whatsapp_link()">
               <a href="https://api.whatsapp.com/send/?phone=9961477968&text&type=phone_number&app_absent=0"><span class="icon-whatsapp iconsz"></span></a>
             </li>
-            <li>
+            <li onclick="insta_link()">
               <a href="https://www.instagram.com/nevin_francies/"><span class="icon-instagram iconsz"></span></a>
             </li>
+            <script>
+              function linkedin_link() {
+                location.replace("https://www.linkedin.com/in/nevin-francies-5b69b0144/")
+              }
+              function whatsapp_link() {
+                location.replace("https://api.whatsapp.com/send/?phone=9961477968&text&type=phone_number&app_absent=0")
+              }
+              function insta_link() {
+                location.replace("https://www.instagram.com/nevin_francies/")
+              }
+              </script>
+              
           </ul>
         </div>
       </header>
