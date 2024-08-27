@@ -620,7 +620,7 @@ h3 {
 @media (max-width:575.98px) {
     .main-logo {
         height: auto;
-        width: 30%;
+        width: 20%;
     }
 }
 
@@ -766,7 +766,9 @@ h3 {
 
 .site-section.darken-bg {
     background: #1a1a1a;
-    position: relative
+    position: relative;
+    margin-bottom : 2rem;
+    border-radius: 10px;
 }
 
 .site-section.darken-bg:before {
